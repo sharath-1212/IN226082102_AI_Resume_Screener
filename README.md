@@ -1,4 +1,4 @@
-# 🎯 AI Resume Screening System
+#  AI Resume Screening System
 
 A production-level AI pipeline that screens resumes against job descriptions using **LangChain**, **Groq (Llama 3.3-70B)**, and **LangSmith** for full observability.
 
@@ -6,7 +6,7 @@ A production-level AI pipeline that screens resumes against job descriptions usi
 
 ---
 
-## ✨ Features
+##  Features
 
 - **4-Step LLM Pipeline**: Extract → Match → Score → Explain
 - **Weighted Scoring**: Skills (50%) + Experience (30%) + Tools (20%)
@@ -17,7 +17,7 @@ A production-level AI pipeline that screens resumes against job descriptions usi
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 resume_screener/
@@ -65,7 +65,7 @@ LangSmith Traces (all steps)
 
 ---
 
-## 🚀 Quickstart
+##  Quickstart
 
 ### 1. Clone & install
 
@@ -110,7 +110,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Scoring Weights
+##  Scoring Weights
 
 | Component | Weight | Max Points |
 |-----------|--------|-----------|
@@ -128,7 +128,7 @@ streamlit run app.py
 
 ---
 
-## 🔍 LangSmith Tracing
+##  LangSmith Tracing
 
 Every pipeline run is automatically traced in LangSmith when `LANGCHAIN_TRACING_V2=true`.
 
@@ -142,7 +142,7 @@ The project also includes a **flawed prompt demo** — toggle "Use Flawed Prompt
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **LLM**: Groq API — `llama-3.3-70b-versatile` (free tier)
 - **Orchestration**: LangChain + LCEL
@@ -152,6 +152,4 @@ The project also includes a **flawed prompt demo** — toggle "Use Flawed Prompt
 
 ---
 
-## 📝 License
 
-MIT License — free to use, modify, and share.
